@@ -39,3 +39,18 @@ git config --global user.email .........
 git log
 ```
 
+
+## 添加远端仓库并提交
+
+```shell
+git remote add origin http://github.com/
+```
+
+## 只有第一次会报错，我们需要用报错的命令进行首次提交，以后只要用下面的命令就可以了
+```shell
+git push
+```
+
+
+
+
